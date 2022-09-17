@@ -3,7 +3,7 @@
 
 /*=-=-=-=-=-=-BASIC SETTINGS-=-=-=-=-=-=*/
 
-body {
+body.class-for-index {
     font-family: 'Raleway', sans-serif;
     margin: unset;
     padding: unset;
@@ -11,62 +11,62 @@ body {
     flex-direction: column;
 }
 
-img {
+.class-for-index img {
     width: 350px;
 }
 
-.images {
+.class-for-index .images {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
-.image-text {
+.class-for-index .image-text {
     text-align: center;
 }
 
-table {
+.class-for-index table {
     margin: 10px auto;
 }
 
-.table-title {
+.class-for-index .table-title {
     background-color: #FAF0CE;
 }
 
 /*=-=-=-=-=-=-HEADER-=-=-=-=-=-=*/
 
-header {
+.class-for-index header {
     display: flex;
     justify-content: center;
     background-color: #FAF0CE;
 }
 
-#logo, #quote {
+.class-for-index #logo, #quote {
     display: inline-block;
     vertical-align: middle;
     margin-left: 10px;
     margin-right: 10px;
 }
 
-#logo {
+.class-for-index #logo {
     background-color: white;
     border-radius: 5px;
     padding: 10px 30px;
 }
 
-#logo a{
+.class-for-index #logo a{
     font-family: 'Roboto Condensed', sans-serif;
     text-decoration: none;
     color: #D4AF31;
     font-size: 45px;
 }
 
-#logo a:hover{
+.class-for-index #logo a:hover{
     transition: all 0.3s ease;
     color: black;
 }
 
-#quote {
+.class-for-index #quote {
     color: rgb(188, 170, 136);
     text-transform: uppercase;
     font-size: 30px;
@@ -74,12 +74,12 @@ header {
 
 /*=-=-=-=-=-=-MAIN-=-=-=-=-=-=*/
 
-main {
+.class-for-index main {
     color: rgb(188, 170, 136);
     margin: 20px 20%;
 }
 
-main #title {
+.class-for-index main #title {
     text-transform: capitalize;
     margin-top: unset;
     font-size: xx-large;
@@ -87,36 +87,36 @@ main #title {
     color: #D4AF31;
 }
 
-main article h3 {
+.class-for-index main article h3 {
     font-size: x-large;
 }
 
-main p, td {
+.class-for-index main p, td {
     color: black;
 }
 
-main table, td {
+.class-for-index main table, td {
     border: 1px solid black;
     padding: 5px;
 }
 
 /*=-=-=-=-=-=-FOOTER-=-=-=-=-=-=*/
 
-footer {
+.class-for-index footer {
     background-color: #cec5aa;
     padding: 15px;
 }
 
-footer p {
+.class-for-index footer p {
     text-align: center;
 }
 
-footer a {
+.class-for-index footer a {
     text-transform: uppercase;
     text-decoration: none;
     color: white;
 }
 
-footer a:hover {
+.class-for-index footer a:hover {
     color: #FAF0CE;
 }
