@@ -1,0 +1,13 @@
+/*=-=-=-=-=-=-BASIC SETTINGS-=-=-=-=-=-=*/
+
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: unset;
+    padding: unset;
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    width: 350px;
+}
