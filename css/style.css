@@ -3,7 +3,7 @@
 
 /*=-=-=-=-=-=-BASIC SETTINGS-=-=-=-=-=-=*/
 
-body.class-for-index {
+body {
     font-family: 'Raleway', sans-serif;
     margin: unset;
     padding: unset;
@@ -41,6 +41,20 @@ body.class-for-index {
     background-color: #FAF0CE;
 }
 
+.class-for-page header {
+    text-align: center;
+    background-color: #FAF0CE;
+}
+
+.class-for-page header h1 {
+    color: #D4AF31;
+}
+
+.class-for-page header h3 {
+    color: rgb(188, 170, 136);
+}
+
+
 .class-for-index #logo, #quote {
     display: inline-block;
     vertical-align: middle;
@@ -74,9 +88,18 @@ body.class-for-index {
 
 /*=-=-=-=-=-=-MAIN-=-=-=-=-=-=*/
 
-.class-for-index main {
+main {
     color: rgb(188, 170, 136);
     margin: 20px 20%;
+}
+
+.class-for-page header h4 {
+    color: #D4AF31;
+}
+
+.class-for-page button {
+    margin: 5px;
+    padding: 5px;
 }
 
 .class-for-index main #title {
@@ -102,21 +125,57 @@ body.class-for-index {
 
 /*=-=-=-=-=-=-FOOTER-=-=-=-=-=-=*/
 
-.class-for-index footer {
+footer {
     background-color: #cec5aa;
     padding: 15px;
 }
 
-.class-for-index footer p {
+footer p {
     text-align: center;
 }
 
-.class-for-index footer a {
+footer a {
     text-transform: uppercase;
     text-decoration: none;
     color: white;
 }
 
-.class-for-index footer a:hover {
+footer a:hover {
     color: #FAF0CE;
+}
+
+.class-for-page #email {
+    padding: 7px 15px; 
+    border: 1px solid #cec5aa; 
+}
+
+.class-for-page #email:focus {
+    background-color: #ffefbb;
+    transition: 0.3s;
+}
+
+.class-for-page #submit {
+    transition: all 0.4s ease 0s;
+    border: 1px solid #cec5aa;
+    text-transform: uppercase;
+    background: white;
+    color: gray;
+    padding: 7px;
+}
+
+.class-for-page #submit:hover {
+    transition: all 0.3s ease 0s;
+    color: rgb(188, 170, 136);
+    border-color: #FAF0CE;
+    background: #FAF0CE;
+}
+
+.class-for-page #submit:focus {
+    transition: all 0.1s ease 0s;
+    color: black;
+}
+
+.class-for-page #terms {
+    font-size: large;
+    text-decoration: underline;
 }
