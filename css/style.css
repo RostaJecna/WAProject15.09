@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+/*=-=-=-=-=-=-BASIC SETTINGS-=-=-=-=-=-=*/
+
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: unset;
+    padding: unset;
+    display: flex;
+    flex-direction: column;
+}
+
+.class-for-index img {
+    width: 100%;
+    max-width: 340px;
+}
+
+.class-for-index .images {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.class-for-index .image-text {
+    text-align: center;
+    
+}
+
+.class-for-index table {
+    margin: 10px auto;
+}
+
+.class-for-index .table-title {
+    background-color: #FAF0CE;
+}
+
+/*=-=-=-=-=-=-HEADER-=-=-=-=-=-=*/
+
+.class-for-index header {
+    display: flex;
+    justify-content: center;
+    background-color: #FAF0CE;
+}
+
+.class-for-page header {
+    text-align: center;
+    background-color: #FAF0CE;
+}
+
+.class-for-page header h1 {
+    color: #D4AF31;
+}
+
+.class-for-page header h3 {
+    color: rgb(188, 170, 136);
+}
+
+
+.class-for-index #logo, #quote {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.class-for-index #logo {
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px 30px;
+    width: fit-content;
+    text-align: center;
+}
+
+.class-for-index #logo a{
+    font-family: 'Roboto Condensed', sans-serif;
+    text-decoration: none;
+    color: #D4AF31;
+    font-size: 45px;
+}
+
+.class-for-index #logo a:hover{
+    transition: all 0.3s ease;
+    color: black;
+}
+
+.class-for-index #quote {
+    color: rgb(188, 170, 136);
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+/*=-=-=-=-=-=-MAIN-=-=-=-=-=-=*/
+
+main {
+    color: rgb(188, 170, 136);
+    margin: 20px 20%;
+}
+
+.class-for-page header h4 {
+    color: #D4AF31;
+}
+
+.class-for-page #email {
+    padding: 7px 15px; 
+    border: 1px solid #cec5aa; 
+}
+
+.class-for-page #email:focus {
+    background-color: #ffefbb;
+    transition: 0.3s;
+}
+
+.class-for-page button {
+    margin: 5px;
+    padding: 5px;
+}
+
+.class-for-page #submit {
+    transition: all 0.4s ease 0s;
+    border: 1px solid #cec5aa;
+    text-transform: uppercase;
+    background: white;
+    color: gray;
+    padding: 7px;
+}
+
+.class-for-page #submit:hover {
+    transition: all 0.3s ease 0s;
+    color: rgb(188, 170, 136);
+    border-color: #FAF0CE;
+    background: #FAF0CE;
+}
+
+.class-for-page #submit:focus {
+    transition: all 0.1s ease 0s;
+    color: black;
+}
+
+.class-for-page #terms {
+    font-size: large;
+    text-decoration: underline;
+}
+
+.class-for-index main #title {
+    text-transform: capitalize;
+    margin-top: unset;
+    font-size: xx-large;
+    text-align: center;
+    color: #D4AF31;
+}
+
+.class-for-index main article h3 {
+    font-size: x-large;
+}
+
+.class-for-index main p, td {
+    color: black;
+}
+
+.class-for-index main table {
+    overflow-x: auto;
+}
+
+.class-for-index main table, td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+/*=-=-=-=-=-=-FOOTER-=-=-=-=-=-=*/
+
+.class-for-index footer {
+    background-color: #cec5aa;
+    padding: 15px;
+}
+
+.class-for-index footer p {
+    text-align: center;
+}
+
+footer a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+
+.class-for-index footer a:hover {
+    color: #FAF0CE;
+}
+
+#footer-page {
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 5px 10px;
+    background-color: #cec5aa;
+    border-radius: 5px;
+    width: fit-content;
+}
+
+#footer-page a{
+    text-decoration: none;
+    color: white;
+}
+
+#footer-page a:hover{
+    color: #FAF0CE;
+}

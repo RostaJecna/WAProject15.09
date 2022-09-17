@@ -1,0 +1,9 @@
+@media screen and (max-width: 870px) {
+    .class-for-index .images {
+        flex-direction: column;
+    }
+
+    .class-for-index header {
+        text-align: center;
+    }
+}
