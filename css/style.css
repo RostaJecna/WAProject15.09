@@ -11,3 +11,15 @@ body {
 img {
     width: 350px;
 }
+
+.images {
+    text-align: center;
+}
+
+table {
+    margin: 10px auto;
+}
+
+.table-title {
+    background-color: #FAF0CE;
+}
