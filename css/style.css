@@ -16,6 +16,12 @@ img {
 }
 
 .images {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.image-text {
     text-align: center;
 }
 
