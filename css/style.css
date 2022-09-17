@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
 /*=-=-=-=-=-=-BASIC SETTINGS-=-=-=-=-=-=*/
 
 body {
@@ -22,4 +25,43 @@ table {
 
 .table-title {
     background-color: #FAF0CE;
+}
+
+/*=-=-=-=-=-=-HEADER-=-=-=-=-=-=*/
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: #FAF0CE;
+}
+
+#logo, #quote {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#logo {
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px 30px;
+}
+
+#logo a{
+    font-family: 'Roboto Condensed', sans-serif;
+    text-decoration: none;
+    color: #D4AF31;
+    font-size: 45px;
+}
+
+#logo a:hover{
+    transition: all 0.3s ease;
+    color: black;
+}
+
+#quote {
+    color: rgb(188, 170, 136);
+    text-transform: uppercase;
+    font-size: 30px;
 }
