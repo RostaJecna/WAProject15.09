@@ -12,7 +12,8 @@ body {
 }
 
 .class-for-index img {
-    width: 350px;
+    width: 100%;
+    max-width: 340px;
 }
 
 .class-for-index .images {
@@ -23,6 +24,7 @@ body {
 
 .class-for-index .image-text {
     text-align: center;
+    
 }
 
 .class-for-index table {
@@ -66,6 +68,8 @@ body {
     background-color: white;
     border-radius: 5px;
     padding: 10px 30px;
+    width: fit-content;
+    text-align: center;
 }
 
 .class-for-index #logo a{
@@ -97,53 +101,6 @@ main {
     color: #D4AF31;
 }
 
-.class-for-page button {
-    margin: 5px;
-    padding: 5px;
-}
-
-.class-for-index main #title {
-    text-transform: capitalize;
-    margin-top: unset;
-    font-size: xx-large;
-    text-align: center;
-    color: #D4AF31;
-}
-
-.class-for-index main article h3 {
-    font-size: x-large;
-}
-
-.class-for-index main p, td {
-    color: black;
-}
-
-.class-for-index main table, td {
-    border: 1px solid black;
-    padding: 5px;
-}
-
-/*=-=-=-=-=-=-FOOTER-=-=-=-=-=-=*/
-
-footer {
-    background-color: #cec5aa;
-    padding: 15px;
-}
-
-footer p {
-    text-align: center;
-}
-
-footer a {
-    text-transform: uppercase;
-    text-decoration: none;
-    color: white;
-}
-
-footer a:hover {
-    color: #FAF0CE;
-}
-
 .class-for-page #email {
     padding: 7px 15px; 
     border: 1px solid #cec5aa; 
@@ -152,6 +109,11 @@ footer a:hover {
 .class-for-page #email:focus {
     background-color: #ffefbb;
     transition: 0.3s;
+}
+
+.class-for-page button {
+    margin: 5px;
+    padding: 5px;
 }
 
 .class-for-page #submit {
@@ -178,4 +140,69 @@ footer a:hover {
 .class-for-page #terms {
     font-size: large;
     text-decoration: underline;
+}
+
+.class-for-index main #title {
+    text-transform: capitalize;
+    margin-top: unset;
+    font-size: xx-large;
+    text-align: center;
+    color: #D4AF31;
+}
+
+.class-for-index main article h3 {
+    font-size: x-large;
+}
+
+.class-for-index main p, td {
+    color: black;
+}
+
+.class-for-index main table {
+    overflow-x: auto;
+}
+
+.class-for-index main table, td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+/*=-=-=-=-=-=-FOOTER-=-=-=-=-=-=*/
+
+.class-for-index footer {
+    background-color: #cec5aa;
+    padding: 15px;
+}
+
+.class-for-index footer p {
+    text-align: center;
+}
+
+footer a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+
+.class-for-index footer a:hover {
+    color: #FAF0CE;
+}
+
+#footer-page {
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 5px 10px;
+    background-color: #cec5aa;
+    border-radius: 5px;
+    width: fit-content;
+}
+
+#footer-page a{
+    text-decoration: none;
+    color: white;
+}
+
+#footer-page a:hover{
+    color: #FAF0CE;
 }
