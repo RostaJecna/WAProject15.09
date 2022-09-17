@@ -12,7 +12,8 @@ body {
 }
 
 .class-for-index img {
-    width: 350px;
+    width: 100%;
+    max-width: 340px;
 }
 
 .class-for-index .images {
@@ -23,6 +24,7 @@ body {
 
 .class-for-index .image-text {
     text-align: center;
+    
 }
 
 .class-for-index table {
@@ -66,6 +68,8 @@ body {
     background-color: white;
     border-radius: 5px;
     padding: 10px 30px;
+    width: fit-content;
+    text-align: center;
 }
 
 .class-for-index #logo a{
@@ -154,6 +158,10 @@ main {
     color: black;
 }
 
+.class-for-index main table {
+    overflow-x: auto;
+}
+
 .class-for-index main table, td {
     border: 1px solid black;
     padding: 5px;
@@ -181,6 +189,7 @@ footer a {
 }
 
 #footer-page {
+    text-align: center;
     text-transform: uppercase;
     text-decoration: none;
     padding: 5px 10px;
