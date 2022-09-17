@@ -65,3 +65,31 @@ header {
     text-transform: uppercase;
     font-size: 30px;
 }
+
+/*=-=-=-=-=-=-MAIN-=-=-=-=-=-=*/
+
+main {
+    color: rgb(188, 170, 136);
+    margin: 20px 20%;
+}
+
+main #title {
+    text-transform: capitalize;
+    margin-top: unset;
+    font-size: xx-large;
+    text-align: center;
+    color: #D4AF31;
+}
+
+main article h3 {
+    font-size: x-large;
+}
+
+main p, td {
+    color: black;
+}
+
+main table, td {
+    border: 1px solid black;
+    padding: 5px;
+}
