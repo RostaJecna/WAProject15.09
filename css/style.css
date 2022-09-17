@@ -93,3 +93,24 @@ main table, td {
     border: 1px solid black;
     padding: 5px;
 }
+
+/*=-=-=-=-=-=-FOOTER-=-=-=-=-=-=*/
+
+footer {
+    background-color: #cec5aa;
+    padding: 15px;
+}
+
+footer p {
+    text-align: center;
+}
+
+footer a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    color: #FAF0CE;
+}
