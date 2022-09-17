@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/style.css">
         <title>NewsLetter • Newsletter</title>
     </head>
     <body class="class-for-page">
@@ -13,10 +14,10 @@
         </header>
         <main>
             <form action="../index.html">
-                <label for="email">Email</label>
-                <input type="text" name="email" id="email" placeholder="example@mail.com" required>
+                <input type="text" name="email" id="email" placeholder="Email" required>
+                <button type="submit" id="submit">Verify</button>
                 <br>
-                <p>What topics are you interested in?</p>
+                <h4>What topics are you interested in?</h4>
                 <input type="checkbox" name="smartelectronics" id="smartelectronics" value="agree">
                 <label for="smartelectronics">Mobile phones, smartwatches, tablets</label>
                 <br>
@@ -27,9 +28,8 @@
                 <label for="gaming">Gaming, games and entertainment</label>
                 <br><br>
                 <input type="checkbox" name="newsletter" id="newsletter" value="agree" required>
-                <label for="newsletter">I want to receive the newsletter.</label>
+                <label for="newsletter" id="terms">I want to receive the newsletter.</label>
                 <br>
-                <button type="submit">Confirm</button>
             </form>
         </main>
         <footer>
