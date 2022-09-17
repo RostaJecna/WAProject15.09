@@ -1,10 +1,15 @@
 
-# 15.9. - Exercise
+# 15.9. - Exercise №1
 
 Work on the project in the subject **WA**.
 Rostyslav L. 15.09.2022 C3b.
 
-## First exercise
+## Table of contents
+* [General info](#general-info)
+* [Last update](#last-update)
+* [Publication](#publication)
+
+## General info
 
 I created an e-shop page and called it **TechWorld**. 
 
@@ -54,6 +59,19 @@ I created an e-shop page and called it **TechWorld**.
 ```
 >There he can choose the topic he is interested in and about which he wants to receive promotions as well as the latest news.
 
+## Last update
+17.09.2022
+
+- Upload icons
+
+<img src="https://cdn.discordapp.com/attachments/1000708764711800852/1020776016714670140/low-battery.png" alt="low-battery" style="width:100px;"> <img src="https://cdn.discordapp.com/attachments/1000708764711800852/1020776035484180600/news.png" alt="low-battery" style="width:100px;">
+
+- Add \<**link**\> element for the icon
+
+```html
+<link rel="icon" type="image/x-icon" href="img/favicon/low-battery.ico">
+<link rel="icon" type="image/x-icon" href="../img/favicon/news.ico">
+```
 
 ## Publication
 
